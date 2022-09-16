@@ -30,8 +30,6 @@ while (true) {
                 console.log(idx, todoitem);
             console.log("******");
             break;
-        case "quit":
-            break;
         default:
             break;
 
