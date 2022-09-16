@@ -1,0 +1,19 @@
+h1{
+    text-align:center;
+    font-weight:normal;
+    text-decoration:red line-through wavy;
+    letter-spacing: 15px;
+    font-size:80px;
+    /* font-family:Futura,Segoe UI, Arial,sans-serif; */
+    font-family:monospace;
+}
+
+a{
+    text-decoration:none;
+    color:black
+}
+
+p{  
+    line-height: 2;
+  
+}

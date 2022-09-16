@@ -1,0 +1,141 @@
+/* * {
+    background-color:cyan;
+} */
+
+body{
+    background-color: #f1faee;
+}
+
+
+button{
+    font-size:30px;
+    background-color: #a8dadc;
+}
+
+/* selecionar um tipo de elemento + outro- usar a virgula */
+h1,h2{
+    color:#1d3557;
+
+}
+
+/* identifcador por ID, usar "#" antes do ID, sem espaço */
+#signup{
+   background-color: #1d3557; 
+   color:#f1faee;
+}
+
+span{
+    color:#457b9d;
+}
+
+/* selecionar uma classe- colocar "." e o nome da classe a seguir */
+.tag{  
+    background-color:#e63946;
+    color: #f1faee;
+    font-size:16px;
+}
+
+/* Operador descendência
+selecionar elementos dentro de outros, usar espaço, ou seja, se quiser selecionar os anchor tags dentro de um elemento li a sintaxe é
+li a{propriedades}
+*/
+.post a{
+    color:#457b9d;
+    font-weight:700;
+    text-decoration:none;
+}
+
+footer a{
+    color:#e63946;
+}
+
+/* Adjacent selector
+selecciona o paragrafo que estão imediatamente a seguir a h1
+h1+p{
+color:red;
+} 
+*/
+h2+button{
+    font-size:20px;
+    background-color: #a8dadc;
+}
+
+/* Direct Child
+Seleciona apenas os lis que são descendentes imediatos de div
+div > li{
+
+}
+*/
+footer>a{
+    color:#a8dadc;
+}
+
+/* Atribute Selector
+Seleciona todos os inputs que tenham o atribute="text"
+input [type="text"]{
+
+}
+*/ 
+input[type="password"]{
+    color:grey;
+} 
+a[href*="google"]{
+    color:black; 
+}
+
+/* Pseudo-classes 
+Começam com ":" são para selecionar estados especificos no html, por ex, hovering, passar o rato por cima de um link
+*/
+.post button:hover{
+    background-color:#e63946;
+    color:#f1faee;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.post button:active{
+    background-color:#fcbf49;
+}
+
+.post:nth-of-type(2n){
+    background-color:#8d99ae
+}
+
+/*pseudo elements*/
+
+h2::first-letter{
+    font-size:50px;
+}
+
+p::first-line{
+    color:purple;
+}
+
+p::selection{
+    background-color:#d62828;
+}
+
+/* se quiser fazer uma aplicação de um pseudo element para a página toda tirar o elemento ou seja
+::selection{
+
+}
+*/
+/* 
+h1,h2{
+    color:yellow;
+}
+a ordem interessa
+*/
+
+button:hover{
+    background-color:olive;
+
+}
+
+/* Adicionar !important sobrepõe qualquer regra de prioridade de estilo em CSS 
+button{
+    background-color:cyan !important;
+}
+*/
