@@ -1,0 +1,30 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  div{
+    text-align: center;
+  }
+
+  #button1{
+    background-color: green;
+  }
+
+  #button2{
+    background-color: blue;
+  }
+
+  #button3{
+    background-color: red;
+  }
+
+  .winner{
+    color:green;
+  }
+  
+  .loser{
+    color:red;
+  }
