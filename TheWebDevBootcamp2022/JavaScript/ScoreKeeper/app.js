@@ -1,4 +1,3 @@
-
 const button3 = document.querySelector("#button3");
 const score = document.querySelector("#score");
 const initialScore = score.innerHTML;
